@@ -20,6 +20,7 @@ Each pattern is organized in its own folder with:
 ### Creational Patterns
 
 - [Singleton Pattern](./singleton/) - Ensure a class has only one instance and provide a global point of access to it
+- [Factory Pattern](./factory/) - Create objects without specifying the exact class of object that will be created
 
 ### Structural Patterns
 
@@ -34,9 +35,13 @@ _(Coming soon)_
 1. Navigate to the pattern folder you want to learn
 2. Read the `README.md` for use-case and implementation details
 3. Study the `example.go` to see the implementation
-4. Run `main.go` (if available) to see the pattern in action:
+4. Run the demo (if available) to see the pattern in action:
    ```bash
-   cd singleton
+   cd singleton/demo
+   go run main.go
+   
+   # or for factory pattern
+   cd factory/demo
    go run main.go
    ```
 
