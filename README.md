@@ -21,6 +21,7 @@ Each pattern is organized in its own folder with:
 
 - [Singleton Pattern](./singleton/) - Ensure a class has only one instance and provide a global point of access to it
 - [Factory Pattern](./factory/) - Create objects without specifying the exact class of object that will be created
+- [Builder Pattern](./builder/) - Construct complex objects step by step with a fluent interface
 
 ### Structural Patterns
 
@@ -42,6 +43,10 @@ _(Coming soon)_
    
    # or for factory pattern
    cd factory/demo
+   go run main.go
+   
+   # or for builder pattern
+   cd builder/demo
    go run main.go
    ```
 
